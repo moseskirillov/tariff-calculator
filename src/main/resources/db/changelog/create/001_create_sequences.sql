@@ -1,0 +1,89 @@
+CREATE SEQUENCE public.hibernate_sequence;
+
+CREATE SEQUENCE public.additional_services_id_seq
+    INCREMENT BY 1
+    MINVALUE 1
+    MAXVALUE 2147483647
+    START 1
+    CACHE 1
+    NO CYCLE;
+
+CREATE SEQUENCE public.additional_services_price_id_seq
+    INCREMENT BY 1
+    MINVALUE 1
+    MAXVALUE 2147483647
+    START 1
+    CACHE 1
+    NO CYCLE;
+
+CREATE SEQUENCE public.agreements_id_seq
+    INCREMENT BY 1
+    MINVALUE 1
+    MAXVALUE 2147483647
+    START 1
+    CACHE 1
+    NO CYCLE;
+
+CREATE SEQUENCE public.calculation_methods_id_seq
+    INCREMENT BY 1
+    MINVALUE 1
+    MAXVALUE 2147483647
+    START 1
+    CACHE 1
+    NO CYCLE;
+
+CREATE SEQUENCE public.clients_id_seq
+    INCREMENT BY 1
+    MINVALUE 1
+    MAXVALUE 2147483647
+    START 1
+    CACHE 1
+    NO CYCLE;
+
+CREATE SEQUENCE public.consignee_list_id_seq
+    INCREMENT BY 1
+    MINVALUE 1
+    MAXVALUE 2147483647
+    START 1
+    CACHE 1
+    NO CYCLE;
+
+CREATE SEQUENCE public.delivery_price_id_seq
+    INCREMENT BY 1
+    MINVALUE 1
+    MAXVALUE 2147483647
+    START 1
+    CACHE 1
+    NO CYCLE;
+
+CREATE SEQUENCE public.goods_types_id_seq
+    INCREMENT BY 1
+    MINVALUE 1
+    MAXVALUE 2147483647
+    START 1
+    CACHE 1
+    NO CYCLE;
+
+CREATE SEQUENCE public.transport_modes_id_seq
+    INCREMENT BY 1
+    MINVALUE 1
+    MAXVALUE 2147483647
+    START 1
+    CACHE 1
+    NO CYCLE;
+
+CREATE SEQUENCE public.vehicle_types_id_seq
+    INCREMENT BY 1
+    MINVALUE 1
+    MAXVALUE 2147483647
+    START 1
+    CACHE 1
+    NO CYCLE;
+
+CREATE SEQUENCE public.warehouse_list_id_seq
+    INCREMENT BY 1
+    MINVALUE 1
+    MAXVALUE 2147483647
+    START 1
+    CACHE 1
+    NO CYCLE;
